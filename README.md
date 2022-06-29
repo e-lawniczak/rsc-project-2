@@ -22,9 +22,10 @@ Optimization algorythms used are from torch.optim package
 | 1  | Multi-Layer Perceptron (MLP)                                          | SGD                    |
 | 2  | Multi-Layer Perceptron (MLP)                                          | Adam                   |
 | 3  | Multi-Layer Perceptron (MLP) + Generalized Matrix Factorization (GMF) | Adam                   |
+| 4  | Generalized Matrix Factorization (GMF)                                | Adam                   |
+| 5  | All models                                                            | both algorithms        |
 
-For tuning I tried diffrent variable spaces in hyperopt tool, unfortunately I wasn't able to obtain satisfying scores with any combination.
-Increase in max evaluations or parameter space / range didn't improve the score.
+For tuning I tried diffrent variable spaces in hyperopt tool. With varrying n_neg_per_pos, batch_size, epochs, embedding_dim values.
 
 Hyperopt optimalization attempts (in order from table)
 #### 1
@@ -36,10 +37,13 @@ Hyperopt optimalization attempts (in order from table)
 #### 3
 ![mlp+gmf+adam tuning](img/tuning_mlp_gmf_adam.JPG)
 
+#### 4
+![mlp+gmf+adam tuning](img/tuning_gmf_adam.JPG)
+
 
 ### Final evaluation
 
-Although I wasn't able to obtain satisfying scores I evaluated my recommender againt the other two. 
+I picked the best variant and 
 
 
 #### Amazon recommender vs. Netflix recommender vs. My Recommender
