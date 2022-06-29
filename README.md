@@ -40,6 +40,9 @@ Hyperopt optimalization attempts (in order from table)
 #### 4
 ![mlp+gmf+adam tuning](img/tuning_gmf_adam.JPG)
 
+#### 5
+![combo tuning tuning](img/tunig_all.JPG)
+
 
 ### Final evaluation
 
