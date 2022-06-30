@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e3cb155-03ae-4f86-b694-88c21b25f5ed" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/amazon_recommender.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/netflix_recommender.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/netflix_recommender_200e.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tuning_mlp_adam.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/tuning_mlp_adam.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tuning_mlp_gmf_adam.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/tuning_mlp_gmf_adam.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tuning_mlp_sgd.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/tuning_mlp_sgd.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_2_recommender_and_evaluation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/project_2_recommender_and_evaluation.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

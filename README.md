@@ -13,6 +13,10 @@ Netflix and Amazon recommenders use item representation therefore I'm using one-
 Aside from items available, most important data set in this projects are interactions. They contain information about users and items they booked in real life.
 I'll try to train my neural network based on this interactions.
 
+### Recommender
+
+Recommender I've created is using neural network with optimizzer from torch.optim package. FOr nn model I picked 3 variants - MLP GMF and combined version of them. For optimizing I'm using either SGD or Adam algorithm.
+
 ### Tuning
 I prepared the recommender, tuned and tested it with diffrent configurations.
 Optimization algorythms used are from torch.optim package
